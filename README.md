@@ -54,13 +54,13 @@ Each notebook is self-contained and includes example runs on provided datasets.
 
 ## Documentation
 
-The SGNN framework, simulation engines, architectures, and evaluation protocols are fully documented in our flagship paper:
+The SGNN framework, simulation engines, architectures, and evaluation protocols are fully documented in our paper:
 
 > **Simulation as Supervision: Mechanistic Pretraining for Scientific Discovery**  
 > *Carson Dudley, Reiden Magdaleno, Christopher Harding, Marisa Eisenberg* (2025)  
 > [Preprint link coming soon]
 
-All model architecture details, loss functions, simulation components, and evaluation metrics are also explained within each notebook.
+
 
 ---
 
@@ -78,23 +78,8 @@ All model architecture details, loss functions, simulation components, and evalu
 **Carson Dudley**  
 PhD Student
 University of Michigan  
-📧 carsondudley@umich.edu  
+📧 cdud@umich.edu  
 🌐 [carsondudley1.github.io](https://carsondudley1.github.io)
-
----
-
-## Contributing
-
-We welcome pull requests and community involvement.
-
-Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) for:
-
-- Bug reporting procedures
-- Guidelines for submitting pull requests
-- How to contribute new features or improvements
-- Contributor credit policy
-
-We ask all contributors to follow our [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) to maintain a positive environment.
 
 ---
 
@@ -117,9 +102,11 @@ See [`NOTICES.txt`](NOTICES.txt) for third-party software attributions and licen
 Community-building and roadmap planning are in progress. Future directions for SGNNs include:
 
 - Domain-specific finetuning pipelines
-- Active learning extensions
+- Active learning for simulation generation
 - Real-time deployment interfaces
 - Expanded simulator libraries across scientific fields
+- Counterfactual/scenario predictions with SGNNs
+- SGNNs + RL for optimal policies
 
 If you're interested in collaborating or contributing to the SGNN ecosystem, please get in touch or watch this repository for updates.
 """
