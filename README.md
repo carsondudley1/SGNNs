@@ -68,8 +68,8 @@ The SGNN framework, simulation engines, architectures, and evaluation protocols 
 
 - Dudley et al., *Simulation as Supervision: Mechanistic Pretraining for Scientific Discovery* (2025) — [preprint pending]
 - PINNs: Raissi et al. (2019), *Journal of Computational Physics*
-- DEFSI: Hegde et al. (2020), *Nature Communications*
-- PFNs: Schneider et al. (2022), *ICLR*
+- DEFSI: Wang et al. (2019), *AAAI*
+- PFNs: Müller et al. (2022), *ICLR*
 
 ---
 
