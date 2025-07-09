@@ -19,8 +19,9 @@ SGNNs unify mechanistic reasoning and deep learning by treating simulations as f
 | `deaths.csv`                  | Example real-world mortality dataset (COVID-19, for forecasting task)      |
 | `dengue_br.csv`               | Dengue case data for out-of-domain generalization benchmarking              |
 | `einn_evals.ipynb`            | PINN/EINN baseline evaluations for disease forecasting                      |
-| `generation_flue_death_hosp.ipynb` | Simulation script for multi-wave infectious disease trajectories       |
+| `generation_flu_death_hosp.ipynb` | Simulation script for multi-wave infectious disease trajectories       |
 | `generation_v5_human.ipynb`   | Unified disease simulator with realistic observational effects             |
+| `sgnn_forecaster.ipynb`       | Script for training SGNN disease forecaster                                 |
 | `hybrid_chem_model_best.ipynb`| Architecture for chemistry SGNN hybrid (wide + deep) model                  |
 | `r0_est.py`                   | SGNN-based estimation of $R_0$ from early outbreak curves                   |
 | `source_id.ipynb`             | SGNN training and evaluation for source inference in diffusion cascades    |
