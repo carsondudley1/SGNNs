@@ -1,7 +1,3 @@
-from pathlib import Path
-
-readme_text = """# Simulation-Grounded Neural Networks (SGNNs)
-
 © 2025 The Regents of the University of Michigan  
 Carson Dudley Lab — University of Michigan
 
