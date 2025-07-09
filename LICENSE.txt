@@ -1,5 +1,5 @@
 Copyright © 2025 The Regents of the University of Michigan
-Carson Dudley Lab — University of Michigan
+Carson Dudley — University of Michigan
 
 PolyForm Noncommercial License 1.0.0
 https://polyformproject.org/licenses/noncommercial/1.0.0
