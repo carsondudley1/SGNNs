@@ -87,7 +87,7 @@ University of Michigan
 
 This project is licensed under the MIT License. See [`LICENSE.txt`](LICENSE.txt) for full terms.  
 © 2025 The Regents of the University of Michigan  
-Carson Dudley Lab — University of Michigan
+Carson Dudley — University of Michigan
 
 ---
 
