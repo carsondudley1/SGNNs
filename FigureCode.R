@@ -417,32 +417,15 @@ dev.off()
 #           Forecasting Comparison           #
 ###############################################
 FS_Model <- data.frame(
-  Model = c("Chronos-Base", "Forecast Hub Median", "Forecast Hub Upper Q.", "SGNN"),
-  `Forecasting Skill` = c(2.9, 13.0, 21.5, 26.0)
+  Model = c("Chronos-Base", "CDC Hub Median", "CDC Hub Best", "SGNN"),
+  `Forecasting Skill` = c(2.9, 13.0, 34, 35.3)
 )
-
-bp <- barplot(FS_Model$Forecasting.Skill, names.arg = FS_Model$Model, 
-              xlab = substitute(paste(bold("Model"))), 
-              ylab = substitute(paste(bold("Forecasting Skill"))), 
-              main = "Forecasting Skill by Model",
-              col = c("#ffb000", "#dc267f", "#785ef0", "#648fff"),
-              ylim = c(0,30),
-              font = 2,
-              cex.names =  2.5,
-              cex.axis =   2.5,
-              cex.lab=2.5,
-              yaxt = "n")
-axis(2, cex = 2,  cex.axis=2.5,cex.lab=2.5, lwd = 4, font = 2);
-text(bp, y = FS_Model$Forecasting.Skill,
-     label = FS_Model$Forecasting.Skill ,
-     pos = 3, cex = 2, col = "black",
-     font =2)
 
 
 FS_Model |>
-  ggplot(aes(x = factor(Model,c("Chronos-Base", "Forecast Hub Median", "Forecast Hub Upper Q.", "SGNN")), y= (Forecasting.Skill)))+
+  ggplot(aes(x = factor(Model,c("Chronos-Base", "CDC Hub Median", "CDC Hub Best", "SGNN")), y= (Forecasting.Skill)))+
   geom_bar(stat = "identity", position = 'dodge',  colour="black", fill = c("#ffb000", "#dc267f", "#785ef0", "#648fff")) +
-  scale_y_continuous(limits = c(0,30), expand = c(0, 0)) +
+  scale_y_continuous(limits = c(0,40), expand = c(0, 0)) +
   theme_classic() +
   xlab("Model") +
   ylab("Forecasting Skill") +
@@ -458,6 +441,33 @@ FS_Model |>
         axis.ticks.length.x  = unit(7.5, "pt")
   )
 
+
+
+
+
+FS_Model <- data.frame(
+  Model = c("Mechanistic Pre-training", "Non-mechanistic Pre-training"),
+  `Forecasting Skill` = c(0.647, 1.58)
+)
+
+
+FS_Model |>
+  ggplot(aes(x = factor(Model,c("Mechanistic Pre-training", "Non-mechanistic Pre-training")), y= (Forecasting.Skill)))+
+  geom_bar(stat = "identity", position = 'dodge',  colour="black", fill = c("#ffb000",  "#648fff")) +
+  scale_y_continuous(limits = c(0,2), expand = c(0, 0)) +
+  theme_classic() +
+  xlab("") +
+  ylab("Relative MAE") +
+  geom_text(aes(label = sprintf("%.2f", Forecasting.Skill)), vjust = -1, size = 12, fontface = "bold") +
+  theme(plot.title = element_text(size = 30, face = "bold", hjust = 0.5),
+        axis.text.y =element_text(size=28, face="bold", colour = "black"),
+        axis.text.x =element_text(size=0, face="bold", colour = "black"),
+        axis.title=element_text(size=30,face="bold"),
+        axis.line.y  = element_line(colour = 'black', size = 1),
+        axis.line.x  = element_line(colour = 'black', size = 1),
+        axis.ticks.x = element_line(size = 1),
+        axis.ticks.length.x  = unit(7.5, "pt")
+  )
 
 
 ###############################################
@@ -545,13 +555,13 @@ ablation.forecast = data.frame(generations = c(1, 2, 3, 4, 5),
 mae_values = c(1.0, 1.025, 1.54, 2.56, 5.17))
 
 
-par(mar = c(5.1, 5.1, 4.1, 2.1))
-plot(ablation.forecast$generations,  ablation.forecast$mae_values, type ="l", col = 'red', 
-     xlab=substitute(paste(bold('Generation'))), ylab=substitute(paste(bold('MAE vs Baseline'))), xaxt = "n", yaxt = "n", 
-     main = "Performance", ylim  =c(0,6), frame.plot = FALSE, cex.main = 2.5, cex.lab=2.5, lwd =5,)
-points(ablation.forecast$generations,  ablation.forecast$mae_values, pch = 19, lwd =5, col = "red")
-axis(2, cex = 2,  cex.axis=1.8,cex.lab=2.5, lwd = 5, font = 2);
-axis(1, cex = 2,  cex.axis=1.8,cex.lab=2.5, lwd = 5, font = 2);
+#par(mar = c(5.1, 5.1, 4.1, 2.1))
+#plot(ablation.forecast$generations,  ablation.forecast$mae_values, type ="l", col = 'red', 
+#     xlab=substitute(paste(bold('Generation'))), ylab=substitute(paste(bold('MAE vs Baseline'))), xaxt = "n", yaxt = "n", 
+#     main = "Performance", ylim  =c(0,6), frame.plot = FALSE, cex.main = 2.5, cex.lab=2.5, lwd =5,)
+#points(ablation.forecast$generations,  ablation.forecast$mae_values, pch = 19, lwd =5, col = "red")
+#axis(2, cex = 2,  cex.axis=1.8,cex.lab=2.5, lwd = 5, font = 2);
+#axis(1, cex = 2,  cex.axis=1.8,cex.lab=2.5, lwd = 5, font = 2);
 
 
 ablation_forecast$week <- seq(1,8, by =1)
@@ -1015,7 +1025,7 @@ make_violin("Hospitalization Rate") + geom_hline(yintercept = 0.069)
  make_violin("Asymptomatic Transmission Rate") + geom_hline(yintercept = 0.179)
 
 
-#Go Lions! Shoutout to the 810!
+
 
 
 
