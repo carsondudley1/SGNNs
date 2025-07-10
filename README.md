@@ -28,6 +28,8 @@ SGNNs unify mechanistic reasoning and deep learning by treating simulations as f
 | `README.md`                   | This file                                                                  |
 | `LICENSE.txt`                 | Licensing information (see below)                                          |
 | `NOTICES.txt`                 | Third-party notices and copyright                                          |
+| `FigureCode.R`                | Code for generating schematic and main figures in manuscript               |
+| `Appendix.R`                  | Code for generating figure in appendix                                     |
 
 ---
 
@@ -35,7 +37,7 @@ SGNNs unify mechanistic reasoning and deep learning by treating simulations as f
 
 ### Installation
 
-This repo requires Python 3.10+ and PyTorch 2.0+.
+This repo requires Python 3.10+ and PyTorch 2.0+ for model implementation. The repo also requires R 4.5.1 for MacOS.
 
 
 ### Running the Code
