@@ -46,7 +46,7 @@ Clone the repo and run any of the notebooks (`.ipynb`) in Jupyter or VS Code. Fo
 
 - Run `generation_v5_human.ipynb` to generate synthetic infectious disease data.
 - Use `source_id.ipynb` to evaluate SGNNs on cascade source inference.
-- Run `chem_yield_zeroshot.ipynb` to evaluate zero-shot performance on chemical reactions.
+- Run `hybrid_chem_model.ipynb` to evaluate SGNN performance on chemical reactions.
 - For reproduction number inference from early outbreak curves, run: python r0_est.py
 
 
