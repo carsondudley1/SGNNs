@@ -60,7 +60,7 @@ The SGNN framework, simulation engines, architectures, and evaluation protocols 
 
 > **Simulation as Supervision: Mechanistic Pretraining for Scientific Discovery**  
 > *Carson Dudley, Reiden Magdaleno, Christopher Harding, Marisa Eisenberg* (2025)  
-> [[Preprint](https://arxiv.org/abs/2507.08977)
+> [[Preprint]](https://arxiv.org/abs/2507.08977)
 
 
 
