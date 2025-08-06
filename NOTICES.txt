@@ -1,7 +1,7 @@
 Simulation-Grounded Neural Networks (SGNNs)
 Copyright © 2025 The Regents of the University of Michigan
 
-This product includes software developed at the Carson Dudley Lab, University of Michigan.
+This product includes software developed at the University of Michigan.
 
 This product includes software from the following third-party projects:
 
