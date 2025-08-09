@@ -49,7 +49,7 @@ sgnn_tutorial.ipynb — End-to-end SGNN workflow tutorial:
 - One-pass synthetic pretraining: generate enough data for a single epoch instead of looping over fixed samples.
 - Observation model: under-reporting, reporting delays, and overdispersion for realistic training data.
 - Lightweight CNN forecaster trained on case data.
-- - Validation on held-out synthetic data with forecast plots.
+- Validation on held-out synthetic data with forecast plots.
 
 
 ### Running the Code
