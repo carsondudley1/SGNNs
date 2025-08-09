@@ -41,6 +41,17 @@ SGNNs unify mechanistic reasoning and deep learning by treating simulations as f
 This repo requires Python 3.10+ and PyTorch 2.0+ for model implementation. The repo also requires R 4.5.1 for MacOS.
 
 
+**Recommended starting point for new users:**
+
+sgnn_tutorial.ipynb — End-to-end SGNN workflow tutorial:
+
+- Stochastic SIR, SEIR, and SEAIR simulators with day-by-day Poisson sampling.
+- One-pass synthetic pretraining: generate enough data for a single epoch instead of looping over fixed samples.
+- Observation model: under-reporting, reporting delays, and overdispersion for realistic training data.
+- Lightweight CNN forecaster trained on case data.
+- - Validation on held-out synthetic data with forecast plots.
+
+
 ### Running the Code
 
 Clone the repo and run any of the notebooks (`.ipynb`) in Jupyter or VS Code. For example:
