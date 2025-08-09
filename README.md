@@ -15,8 +15,7 @@ SGNNs unify mechanistic reasoning and deep learning by treating simulations as f
 
 | File / Directory                | Description                                                                 |
 |-------------------------------|-----------------------------------------------------------------------------|
-| sgnn_tutorial.ipynb | End-to-end SGNN tutorial: stochastic multi-mechanism simulators (SIR, SEIR, SEAIR) + observation model + single-pass training and evaluation |
-
+| `sgnn_tutorial.ipynb` | End-to-end SGNN tutorial: stochastic multi-mechanism simulators (SIR, SEIR, SEAIR) + observation model + single-pass training and evaluation |
 | `chem_yield_zeroshot.ipynb`   | SGNN evaluation on chemical reaction yield prediction (zero-shot mode)     |
 | `deaths.csv`                  | Example real-world mortality dataset (COVID-19, for forecasting task)      |
 | `dengue_br.csv`               | Dengue case data for out-of-domain generalization benchmarking              |
