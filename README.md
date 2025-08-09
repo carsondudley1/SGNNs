@@ -11,7 +11,7 @@ SGNNs unify mechanistic reasoning and deep learning by treating simulations as f
 
 ## 🚀 Try It Instantly
 
-👉 [Run the Colab Tutorial](https://colab.research.google.com/drive/1VpNm31JyZLVDnz9-qTpTkvCSjeMy3qpG#scrollTo=R8iy8THz9zjs&uniqifier=1)) 
+👉 [Run the Colab Tutorial](https://colab.research.google.com/drive/1VpNm31JyZLVDnz9-qTpTkvCSjeMy3qpG#scrollTo=R8iy8THz9zjs&uniqifier=1)
 
 _No installation or coding required._
 
