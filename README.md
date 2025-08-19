@@ -87,6 +87,7 @@ The SGNN framework, simulation engines, architectures, and evaluation protocols 
 ## References & Related Work
 
 - Dudley et al., *Simulation as Supervision: Mechanistic Pretraining for Scientific Discovery* (2025) — (https://arxiv.org/abs/2507.08977)
+- Dudley et al., *Mantis: A simulation-Grounded Foundation Model for Disease Forecasting* (2025) - (https://arxiv.org/abs/2508.12260)
 - PINNs: Raissi et al. (2019), *Journal of Computational Physics*
 - DEFSI: Wang et al. (2019), *AAAI*
 - PFNs: Müller et al. (2022), *ICLR*
