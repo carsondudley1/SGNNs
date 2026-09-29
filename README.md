@@ -76,9 +76,9 @@ Each notebook is self-contained and includes example runs on provided datasets.
 
 The SGNN framework, simulation engines, architectures, and evaluation protocols are fully documented in our paper:
 
-> **Simulation as Supervision: Mechanistic Pretraining for Scientific Discovery**  
+> **Training Neural Networks on Mechanistic Simulations Improves Scientific Inference**  
 > *Carson Dudley, Reiden Magdaleno, Christopher Harding, Marisa Eisenberg* (2025)  
-> [[Preprint]](https://arxiv.org/abs/2507.08977)
+> [[Scientific Reports]](https://www.nature.com/articles/s41598-026-64106-6)
 
 
 
@@ -86,8 +86,8 @@ The SGNN framework, simulation engines, architectures, and evaluation protocols 
 
 ## References & Related Work
 
-- Dudley et al., *Simulation as Supervision: Mechanistic Pretraining for Scientific Discovery* (2025) — (https://arxiv.org/abs/2507.08977)
-- Dudley et al., *Mantis: A simulation-Grounded Foundation Model for Disease Forecasting* (2025) - (https://arxiv.org/abs/2508.12260)
+- Dudley et al., *Training Neural Networks on Mechanistic Simulations Improves Scientific Inference* (2025), *Scientific Reports*
+- Dudley et al., *Mantis: A Foundation Model for Mechanistic Disease Forecasting* (2025), *PNAS*
 - PINNs: Raissi et al. (2019), *Journal of Computational Physics*
 - DEFSI: Wang et al. (2019), *AAAI*
 - PFNs: Müller et al. (2022), *ICLR*
